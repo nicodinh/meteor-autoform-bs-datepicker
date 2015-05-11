@@ -54,6 +54,7 @@ Template.afBootstrapDatepicker.rendered = function () {
   $input.datepicker(data.atts.datePickerOptions);
 
   // set and reactively update values
+  /*
   this.autorun(function () {
     var data = Template.currentData();
 
@@ -80,6 +81,7 @@ Template.afBootstrapDatepicker.rendered = function () {
       $input.datepicker('setEndDate', endDate);
     }
   });
+  */
 };
 
 Template.afBootstrapDatepicker.destroyed = function () {
