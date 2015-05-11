@@ -63,7 +63,7 @@ Template.afBootstrapDatepicker.rendered = function () {
       $input.datepicker('setUTCDate', data.value);
     } 
     //else if (typeof data.value === "string") {instanceof String
-    else if (typeof data.value === "string") {
+    else if (typeof data.value === "string" || data.value instanceof String) {
       $input.datepicker('update', data.value);
     }
     
