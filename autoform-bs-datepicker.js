@@ -62,10 +62,12 @@ Template.afBootstrapDatepicker.rendered = function () {
     if (data.value instanceof Date) {
       $input.datepicker('setUTCDate', data.value);
     } 
-    else if (data.value instanceof String) {
+    /*
+    else if (typeof data.value === "string") {
       $input.datepicker('update', data.value);
     }
-
+    */
+    
     // set start date if there's a min in the schema
     if (data.min instanceof Date) {
       // datepicker plugin expects local Date object,
