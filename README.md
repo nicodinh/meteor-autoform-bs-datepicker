@@ -22,7 +22,7 @@ $ meteor add aldeed:autoform
 
 In a Meteor app directory, enter:
 
-if `packages` not exist
+if `packages/` not exist
 ```
 $ mkdir packages
 ```
