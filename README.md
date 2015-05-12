@@ -1,6 +1,9 @@
 aldeed:autoform-bs-datepicker
 =========================
 
+## Custom Fix
+Read : https://github.com/aldeed/meteor-autoform-bs-datepicker/issues/10#issuecomment-100933048
+
 An add-on Meteor package for [aldeed:autoform](https://github.com/aldeed/meteor-autoform). Provides a single custom input type, "bootstrap-datepicker", which renders an input using the [bootstrap-datepicker](http://bootstrap-datepicker.readthedocs.org/en/release/index.html) plugin.
 
 ## Prerequisites
@@ -20,7 +23,8 @@ $ meteor add aldeed:autoform
 In a Meteor app directory, enter:
 
 ```
-$ meteor add aldeed:autoform-bs-datepicker
+$ cd packages
+$ clone this depot 
 ```
 
 ## Usage
