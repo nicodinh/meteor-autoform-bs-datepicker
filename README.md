@@ -30,7 +30,7 @@ else
 
 ```
 $ cd packages
-$ clone https://github.com/nicodinh/meteor-autoform-bs-datepicker.git
+$ git clone https://github.com/nicodinh/meteor-autoform-bs-datepicker.git
 ```
 
 ## Usage
