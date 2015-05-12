@@ -22,9 +22,15 @@ $ meteor add aldeed:autoform
 
 In a Meteor app directory, enter:
 
+if `packages` not exist
+```
+$ mkdir packages
+```
+else
+
 ```
 $ cd packages
-$ clone this depot 
+$ clone https://github.com/nicodinh/meteor-autoform-bs-datepicker.git
 ```
 
 ## Usage
